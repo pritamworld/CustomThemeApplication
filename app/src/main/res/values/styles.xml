@@ -1,0 +1,157 @@
+<resources>
+    <!-- Generated with http://android-holo-colors.com -->
+
+    <style name="CustomAppTheme" parent="@style/_CustomAppTheme" />
+
+    <style name="_CustomAppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+
+        <item name="android:background">@color/backgroundPrimary</item>
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="android:editTextBackground">@drawable/customapptheme_edit_text_holo_light</item>
+
+        <item name="android:textColorHighlight">#999933cc</item>
+        <item name="android:textSelectHandleLeft">@drawable/customapptheme_text_select_handle_left
+        </item>
+        <item name="android:textSelectHandleRight">
+            @drawable/customapptheme_text_select_handle_right
+        </item>
+        <item name="android:textSelectHandle">@drawable/customapptheme_text_select_handle_middle
+        </item>
+
+        <item name="android:autoCompleteTextViewStyle">@style/AutoCompleteTextViewCustomAppTheme
+        </item>
+
+        <item name="android:listChoiceIndicatorMultiple">
+            @drawable/customapptheme_btn_check_holo_light
+        </item>
+
+        <item name="android:listChoiceIndicatorSingle">
+            @drawable/customapptheme_btn_radio_holo_light
+        </item>
+
+        <item name="android:buttonStyle">@style/ButtonCustomAppTheme</item>
+
+        <item name="android:imageButtonStyle">@style/ImageButtonCustomAppTheme</item>
+
+        <item name="android:dropDownSpinnerStyle">@style/SpinnerCustomAppTheme</item>
+
+        <item name="android:progressBarStyleHorizontal">@style/ProgressBarCustomAppTheme</item>
+
+        <item name="android:seekBarStyle">@style/SeekBarCustomAppTheme</item>
+
+        <item name="android:ratingBarStyle">@style/RatingBarCustomAppTheme</item>
+
+        <item name="android:ratingBarStyleIndicator">@style/RatingBarBigCustomAppTheme</item>
+
+        <item name="android:ratingBarStyleSmall">@style/RatingBarSmallCustomAppTheme</item>
+
+        <item name="android:buttonStyleToggle">@style/ToggleCustomAppTheme</item>
+
+        <item name="android:listChoiceBackgroundIndicator">
+            @drawable/customapptheme_list_selector_holo_light
+        </item>
+
+        <item name="android:activatedBackgroundIndicator">
+            @drawable/customapptheme_activated_background_holo_light
+        </item>
+
+        <item name="android:fastScrollThumbDrawable">
+            @drawable/customapptheme_fastscroll_thumb_holo
+        </item>
+
+    </style>
+
+
+    <style name="AutoCompleteTextViewCustomAppTheme" parent="android:Widget.Holo.Light.AutoCompleteTextView">
+        <item name="android:dropDownSelector">@drawable/customapptheme_list_selector_holo_light
+        </item>
+        <item name="android:background">@drawable/customapptheme_edit_text_holo_light</item>
+    </style>
+
+    <style name="ButtonCustomAppTheme" parent="android:Widget.Holo.Light.Button">
+        <item name="android:background">@drawable/customapptheme_btn_default_holo_light</item>
+    </style>
+
+    <style name="ImageButtonCustomAppTheme" parent="android:Widget.Holo.Light.ImageButton">
+        <item name="android:background">@drawable/customapptheme_btn_default_holo_light</item>
+    </style>
+
+    <style name="SpinnerCustomAppTheme" parent="android:Widget.Holo.Light.Spinner">
+        <item name="android:background">@drawable/customapptheme_spinner_background_holo_light
+        </item>
+        <item name="android:dropDownSelector">@drawable/customapptheme_list_selector_holo_light
+        </item>
+    </style>
+
+    <style name="TabCustomAppTheme">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:paddingLeft">16dip</item>
+        <item name="android:paddingRight">16dip</item>
+        <item name="android:background">@drawable/customapptheme_tab_indicator_holo</item>
+        <item name="android:layout_width">0dip</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:minWidth">80dip</item>
+    </style>
+
+    <style name="TabTextCustomAppTheme">
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">bold</item>
+        <!-- v14 <item name="android:textAllCaps">true</item> -->
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:maxWidth">180dip</item>
+    </style>
+
+    <style name="ProgressBarCustomAppTheme" parent="android:Widget.Holo.Light.ProgressBar.Horizontal">
+        <item name="android:progressDrawable">
+            @drawable/customapptheme_progress_horizontal_holo_light
+        </item>
+        <item name="android:indeterminateDrawable">
+            @drawable/customapptheme_progress_indeterminate_horizontal_holo_light
+        </item>
+    </style>
+
+    <style name="SeekBarCustomAppTheme" parent="android:Widget.Holo.Light.SeekBar">
+        <item name="android:progressDrawable">
+            @drawable/customapptheme_scrubber_progress_horizontal_holo_light
+        </item>
+        <item name="android:indeterminateDrawable">
+            @drawable/customapptheme_scrubber_progress_horizontal_holo_light
+        </item>
+        <item name="android:thumb">@drawable/customapptheme_scrubber_control_selector_holo_light
+        </item>
+    </style>
+
+    <style name="RatingBarCustomAppTheme" parent="android:Widget.Holo.Light.RatingBar">
+        <item name="android:progressDrawable">@drawable/customapptheme_ratingbar_full_holo_light
+        </item>
+        <item name="android:indeterminateDrawable">
+            @drawable/customapptheme_ratingbar_full_holo_light
+        </item>
+    </style>
+
+    <style name="RatingBarBigCustomAppTheme" parent="android:Widget.Holo.Light.RatingBar.Indicator">
+        <item name="android:progressDrawable">@drawable/customapptheme_ratingbar_holo_light</item>
+        <item name="android:indeterminateDrawable">@drawable/customapptheme_ratingbar_holo_light
+        </item>
+    </style>
+
+    <style name="RatingBarSmallCustomAppTheme" parent="android:Widget.Holo.Light.RatingBar.Small">
+        <item name="android:progressDrawable">@drawable/customapptheme_ratingbar_small_holo_light
+        </item>
+        <item name="android:indeterminateDrawable">
+            @drawable/customapptheme_ratingbar_small_holo_light
+        </item>
+    </style>
+
+    <style name="ToggleCustomAppTheme" parent="android:Widget.Holo.Light.Button.Toggle">
+        <item name="android:background">@drawable/customapptheme_btn_toggle_holo_light</item>
+    </style>
+
+
+</resources>
